@@ -12,7 +12,7 @@ export default function Home() {
     setLoading(true);
     setResult(null);
     try {
-      const res = await fetch('https://TUSERVIDOR.railway.app/scrape', {
+      const res = await fetch('https://sercop-api-final.up.railway.app/scrape', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ruc }),

@@ -1,4 +1,3 @@
-// src/app/page.tsx
 'use client';
 
 import { useState } from 'react';
@@ -60,6 +59,3 @@ export default function Home() {
     </main>
   );
 }
-
-// src/app/api/scrape/route.ts
-// Eliminado porque ahora usamos API externa
